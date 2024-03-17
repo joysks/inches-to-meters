@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class main{
+     public static void main(String[] args){
+       Scanner inp= new Scanner(System.in);
+       System.out.println("Input the number in inchi");
+       double num= inp.nextDouble();
+       
+     double sum= num*0.0254;
+     System.out.println(" The meter number is "+ sum);
+       
+        
+     }
+}
